@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+font-family: 'Roboto';
+margin: 0;
+padding: 0;
+background: black;
+color: white;
+}
+
+.main{
+    background: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1rem 0.2rem;
+    
+}
+
+.left h4{
+   margin: auto;
+}
+i{
+    margin: 0 0.8rem;
+}
+
+.left{
+    display: flex;
+    
+}
+
+.profileInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0.8rem; */
+}
+
+.profileInfo img{
+    border-radius: 50%;
+    padding-left: 0.8rem;
+}
+
+.profileStats{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.stat{
+    padding: 1rem;
+    text-align: center;
+}
+
+.bio{
+    padding: 0.8rem;
+}
+
+.bio span{
+    color: darkgray;
+    font-weight:500;
+    font-size: 1rem;
+}
+
+#link{
+    text-decoration: underline;
+    font-size: 0.9rem;
+    color: lightblue;
+}
+
+.story img{
+    border-radius: 50%;
+}
+.story p{
+    text-align: center;
+}
+
+.highLights{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+}
+
+.posts img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.2em;
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width:401px){
+.main{
+width: 400px;
+border: 2px solid black;
+padding: 1%;
+border-radius: 20px;
+margin: 0.4rem;
+height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    
+}
+}
+
+
+
+
