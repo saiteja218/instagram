@@ -19,7 +19,7 @@ fetch('https://randomuser.me/api').then(response=>{
 
         for(i=0;i<rposts;i++){
            imgg = document.createElement('img')
-           imgg.src="https://picsum.photos/10"+i;
+           imgg.src="https://picsum.photos/20"+i;
            document.getElementsByClassName('posts')[0].append(imgg);
         }
 
