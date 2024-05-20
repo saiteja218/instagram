@@ -17,11 +17,11 @@ fetch('https://randomuser.me/api').then(response=>{
         document.getElementById('userName').innerHTML=user.name.first;
         document.getElementById('profilePic').src=user.picture.medium;
 
-        for(i=0;i<rposts;i++){
-           imgg = document.createElement('img')
-           imgg.src="https://picsum.photos/20"+i;
-           document.getElementsByClassName('posts')[0].append(imgg);
-        }
+        // for(i=0;i<rposts;i++){
+        //    imgg = document.createElement('img')
+        //    imgg.src="https://picsum.photos/20"+i;
+        //    document.getElementsByClassName('posts')[0].append(imgg);
+        // }
 
     })
 })
