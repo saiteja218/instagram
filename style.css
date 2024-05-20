@@ -91,8 +91,8 @@ i{
 
 .posts{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    /* gap: 0.15rem; */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.15rem;
     margin-top: 1rem;
 }
 
