@@ -92,7 +92,7 @@ i{
 .posts{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.15rem;
+    grid-gap: 0.15rem;
     margin-top: 1rem;
 }
 
