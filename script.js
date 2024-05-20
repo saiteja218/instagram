@@ -1,5 +1,5 @@
 
-rposts=Math.floor(Math.random()*15)+5
+rposts=Math.floor(Math.random()*10)+5
 rfollow=Math.floor(Math.random()*(1000-50))+50;
 rfolower=Math.floor(Math.random()*(rfollow))+200;
 
@@ -19,7 +19,7 @@ fetch('https://randomuser.me/api').then(response=>{
 
         for(i=0;i<rposts;i++){
            imgg = document.createElement('img')
-           imgg.src=`https://picsum.photos/20${i}`
+           imgg.src="https://picsum.photos/10"+i
            document.getElementsByClassName('posts')[0].append(imgg);
         }
 
