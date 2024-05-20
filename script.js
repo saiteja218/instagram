@@ -10,9 +10,9 @@ document.getElementById('following').innerHTML=rfolower;
 
 fetch('https://randomuser.me/api').then(response=>{
     response.json().then(data=>{
-        console.log(data)
+        // console.log(data)
         user=data["results"][0];
-        console.log(user)
+        // console.log(user)
         document.getElementById('name').innerHTML=user.name.first+" "+user.name.last
         document.getElementById('userName').innerHTML=user.name.first;
         document.getElementById('profilePic').src=user.picture.medium;
